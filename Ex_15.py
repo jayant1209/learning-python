@@ -1,0 +1,5 @@
+P=int(input("Enter Principal: "))
+R=float(input("Enter Annual interest Rate: "))
+T=int(input("Enter Time in year: "))
+A=P*(1+(R*T))
+print(A)
